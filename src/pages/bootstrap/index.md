@@ -50,3 +50,11 @@ Bootstrap has thorough documentation with many <a href='https://getbootstrap.com
 
 In addition, you can find both <a href='https://bootswatch.com/' target='_blank' rel='nofollow'>free</a> and <a href='https://themes.getbootstrap.com/' target='_blank' rel='nofollow'>paid</a>
 themes that build on the Bootstrap framework to provide a more customized and stylish look.
+
+
+'''
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+      <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet" type="text/html">
+      <link href="{{ url_for('static', filename='css/docs.min.css') }}" rel="stylesheet">
+'''
